@@ -10,8 +10,8 @@ ext {
 
     libraryDescription = 'HSV Color Picker'
 
-    siteUrl = 'https://github.com/drkpoon/MyLib'
-    gitUrl = 'https://github.com/drkpoon/MyLib.git'
+    siteUrl = 'https://github.com/drkpoon/HSVPicker'
+    gitUrl = 'https://github.com/drkpoon/HSVPicker.git'
 
     libraryVersion = '1.0.0'
 
