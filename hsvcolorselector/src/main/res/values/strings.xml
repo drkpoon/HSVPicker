@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HSVColorSelector</string>
+    <string name="hueMax">360</string>
+    <string name="preset_colors">Preset Colors:</string>
+    <string name="placeholder">placeholder</string>
+    <string name="selected_colors">Selected</string>
+</resources>
