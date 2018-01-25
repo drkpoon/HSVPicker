@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/drkpoon/HSVPicker'
     gitUrl = 'https://github.com/drkpoon/HSVPicker.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.1.0'
 
     developerId = 'drkpoon'
     developerName = 'Derek Poon'
