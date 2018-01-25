@@ -43,7 +43,7 @@ public class HSVPickerDialog {
         maxHue = Integer.parseInt(context.getResources().getString(R.string.hueMax));
         mOnHSVPickerDialogListener = onHSVPickerDialogListener;
 
-        View view = LayoutInflater.from(context).inflate(R.layout.hsvdialog, null);
+        final View view = LayoutInflater.from(context).inflate(R.layout.hsvdialog, null);
         mImageViewColorSelected = view.findViewById(R.id.colorSelected);
         mTextViewHue = view.findViewById(R.id.hueText);
         mTextViewSaturation = view.findViewById(R.id.saturationText);
