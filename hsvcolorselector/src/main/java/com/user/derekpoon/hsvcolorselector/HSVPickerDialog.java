@@ -35,7 +35,7 @@ public class HSVPickerDialog {
     private TextView mTextViewHue, mTextViewSaturation, mTextViewValue, mTextViewAlpha, mTextViewRed, mTextViewGreen, mTextViewBlue;
     private float svViewSizeX, svViewSizeY, hueViewSizeY, alphaViewSizeY;
 
-    public HSVPickerDialog(final Context context, OnHSVPickerDialogListener onHSVPickerDialogListener, int[] hsvList) {
+    HSVPickerDialog(final Context context, OnHSVPickerDialogListener onHSVPickerDialogListener, int[] hsvList) {
         if (hsvList.length > 0) {
             Color.colorToHSV(hsvList[0], hsv);
             alpha = Color.alpha(hsvList[0]);
